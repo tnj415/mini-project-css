@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+}
+
+div {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+section {
+	display: flex;
+	flex-wrap: wrap;
+	border: 10px solid black;
+	flex: 0 0 300px;
+}
+
+section h2 {
+
+}
+
+section p {
+
+}
+
+section pre {
+	background-color: lightblue;
+}
