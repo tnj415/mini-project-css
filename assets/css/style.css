@@ -7,26 +7,20 @@ div {
 	flex-wrap: wrap;
 }
 
-main {
-	display: flex;
-	flex-wrap: wrap;
-}
-
 section {
-	display: flex;
-	flex-wrap: wrap;
 	border: 10px solid black;
 	flex: 0 0 300px;
-}
-
-section h2 {
-
+	width: 300px;
 }
 
 section p {
-
+	width: 100%;
 }
 
 section pre {
 	background-color: lightblue;
+}
+
+section pre code {
+	width: 100%;
 }
